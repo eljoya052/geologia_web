@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="" /> 
+	<meta name="author" content="" />
+	<meta name="robots" content="" />
+	<meta name="description" content="" />
+	<meta name="format-detection" content="telephone=no">
+	<link rel="icon" href="favicon.png" type="image/png" />
+	<link rel="shortcut icon" type="image/png" href="favicon.png" />
+	<title>SENSORES Y MINERIA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css?v1">
+	<link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-1.css">
+	<link rel="stylesheet" type="text/css" href="css/templete.css">
+	<link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">
+	<link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
+
+    <style>
+        .service-border-style{
+            height: 450px;
+        }
+        img{
+            height: 450px;
+        }
+        .text-primary{
+            color: #fa0000!important;
+        }
+        #quik-search-btn{
+            background-color: #a70809!important;
+        }
+        .bg-primary{
+            background-color: #a70809!important;
+        }
+        h4{
+            color: #cfcdcd!important;
+        }
+        .overlay-primary-dark:after{
+            background-color: #a70809!important;
+        }
+        .header-nav .nav > li.active > a,.header-nav .nav > li > a:hover{
+            color: #a70809!important;
+        }
+        h2 a:hover{
+            color: #a70809!important;
+        } 
+        .team-member {
+            text-align: left;
+            width: 23rem;
+            margin-left: -50px!important;
+        }
+        .team-member img {
+            width: 21rem;
+            height: 20rem;
+            border: 0.5rem solid rgba(0, 0, 0, 0.1);
+        }
+        .rounded-circle {
+            border-radius: 50% !important;
+        }
+        .mx-auto {
+            margin-right: auto !important;
+            margin-left: auto !important;
+        }
+        .gerencia{
+            width: 55rem!important;
+            margin-top: auto!important;
+            margin-bottom: auto!important;
+        }
+        a:not([href]):not([class]) {
+            color: #555555!important;
+        }
+        a:not([href]):not([class]):hover {
+            color: #a70809!important;
+        }
+		.rojo{
+			color: #a70809!important;
+		}
+		.back-rojo{
+			background-color: #a70809!important;
+		}
+        .dez-info{
+            min-height: 320px;
+        }
+        .qs{
+            background-color: white;
+            border-radius: 50px;
+            padding: 30px;
+            margin-left: 700px;
+            width: 46%;
+        }
+        .dez-box .dez-title {
+            text-transform: inherit;
+        }
+        c{
+            font-size: 27px;
+        }
+        p{
+            text-align: justify;
+        }
+        @media (max-width: 1300px){
+            .qs{
+                margin-left: 600px;
+            }
+        }
+		
+        @media (max-width: 1125px){
+            .qs{
+                margin-left: auto;
+                margin-right: auto;
+				width: 80%;
+            }
+			.col-md-4 {
+				flex: 0 0 auto;
+				width: 50%;
+			}
+			.team-member {
+				width: 23rem;
+                margin-left: auto!important;
+                margin-right: auto;
+			}
+            .gerencia{
+                width: 100%!important;
+            }
+        }
+		@media (max-width: 499px){
+			.col-md-4{
+				width: 100%;
+			}
+		}
+		@media (max-width: 400px){
+			.qs{
+				margin-left: 30px;
+				width: 85%;
+			}
+			.team-member {
+				width: 22rem;
+				margin-left: 20px!important;
+			}
+		}
+		@media (max-width: 399px){
+			.col-md-4{
+				width: 100%;
+			}
+		}
+        
+        
+    </style>
+</head>
+<body id="bg"><div id="loading-area"></div>
+<div class="page-wraper">
+ <header class="site-header header mo-left header-style-1">
+ 	<div class="top-bar no-skew">
+ 		<div class="container">
+ 			<div class="row d-flex justify-content-between">
+				<div class="dez-topbar-left col">
+ 					<ul class="social-bx list-inline pull-left">
+						<li><a href="javascript:void(0);" class="fa fa-phone"></a> +563 969 671 689</li>
+						<li><a href="javascript:void(0);" class="fa fa-envelope"></a><a href="mailto:contacto@momoingenieria.cl" style="background-color: transparent;">contacto@momoingenieria.cl</a></li>
+ 					</ul>
+ 				</div>
+ 				<div class="dez-topbar-right col">
+ 					<ul class="social-bx list-inline pull-right">
+						<!-- <li><a href="javascript:void(0);" class="fab fa-facebook-f"></a></li>
+						<li><a href="javascript:void(0);" class="fab fa-twitter"></a></li>
+						<li><a href="javascript:void(0);" class="fab fa-linkedin-in"></a></li>
+						<li><a href="javascript:void(0);" class="fab fa-instagram"></a></li> -->
+					</ul>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<div class="sticky-header main-bar-wraper navbar-expand-lg">
+ 		<div class="main-bar clearfix ">
+ 			<div class="container clearfix">
+ 				<div class="logo-header mostion dark">
+					<a href="index.html">
+						<img src="logo3.png" width="193" height="89" alt="">
+					</a>
+				</div>
+					<button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+ <!-- extra nav -->
+				
+				<div class="dez-quik-search bg-primary">
+					<form action="#">
+ 						<input name="search" value="" type="text" class="form-control" placeholder="Type to search">
+						<span id="quik-search-remove"><i class="fas fa-times"></i></span>
+ 					</form>
+ 				</div>
+ 				<div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+ 					<ul class="nav navbar-nav">
+ 						<li class="active"><a>Inicio</a></li>
+                        <li>
+                            <a id="ns" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">Nuestros servicios<i class="fa fa-chevron-down"></i></a>
+                            <!-- <ul class="sub-menu">
+                                <li>
+                                    <a href="javascript:;">Ejemplo</a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="javascript:;">Ejemplo</a>
+                                </li>
+                            </ul> -->
+                        </li>
+                        <li class="has-mega-menu">
+                            <a id="qs" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">Quienes somos<i class="fa fa-chevron-down"></i></a>
+                        </li>
+                        <li>
+                            <a id="ct" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">Contactanos<i class="fa fa-chevron-down"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- main header END -->
+ </header>
+ <!-- header END -->
+	<!-- Content -->
+<div>
+	<video width="1350" height="300"  autoplay muted >
+		<source src="geologia.mp4" type="video/mp4">
+	</video>
+</div>
+    
+ <div class="page-content font-style-2">	
+		<!-- Slider -->
+ <div class="main-slider style-two default-banner" id="home">
+ 	<div class="tp-banner-container">
+ 		<div class="tp-banner" >
+			<div id="rev_slider_1175_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="duotone192" data-source="gallery" style="background-color:transparent;padding:0px;">
+						<!-- START REVOLUTION SLIDER 5.3.0.2 fullscreen mode -->
+						<div id="rev_slider_1175_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.3.0.2">
+							<ul>	<!-- SLIDE -->
+								<li data-index="rs-3239" data-thumb="img/AdobeStock_209466807.jpeg">
+									<!-- MAIN IMAGE -->
+									<img src="img/AdobeStock_209466807.jpeg" alt="" data-lazyload="img/AdobeStock_209466807.jpeg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="3" class="rev-slidebg" data-no-retina>
+									<!-- LAYERS -->
+									<div class="tp-caption tp-shape tp-shapewrapper " id="slide-100-layer-1" 
+									data-x="['center','center','center','center']" 
+									data-hoffset="['0','0','0','0']" 
+									data-y="['middle','middle','middle','middle']" 
+									data-voffset="['0','0','0','0']" 
+									data-width="full" data-height="full" 
+									data-whitespace="nowrap" 
+									data-type="shape" 
+									data-basealign="slide" 
+									data-responsive_offset="off" 
+									data-responsive="off" 
+									data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"Power4.easeOut"}]' 
+									
+									style="z-index: 2;background-color:rgba(0, 0, 0, 0.4);border-color:rgba(0, 0, 0, 0);border-width:0px;"> </div>
+									<!-- LAYER NR. 1 -->
+									<div class="tp-caption rs-parallaxlevel-4" 
+										 id="slide-3239-layer-1" 
+										 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+										 data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-100']" 
+													data-fontsize="['60','60','40','20']"
+										data-lineheight="['70','70','50','30']"
+										data-width="['720','640','480','300']"
+										data-height="none"
+										data-whitespace="normal"
+							 
+										data-type="text" 
+										data-responsive_offset="off" 
+										data-responsive="off"
+										data-frames='[{"from":"y:20px;sX:0.9;sY:0.9;opacity:0;","speed":1000,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+										data-textAlign="['center','center','center','center']"
+										data-paddingtop="[0,0,0,0]"
+										data-paddingright="[0,0,0,0]"
+										data-paddingbottom="[0,0,0,0]"
+										data-paddingleft="[0,0,0,0]"
+										style="z-index: 5; min-width: 720px; max-width: 720px; Rdxtheme-space: normal; font-size: 70px; line-height: 70px; color:#fff;border-width:0px;letter-spacing:10px; font-weight:900;">MOMO<br/>
+							 <span class="text-primary">INGENIERÍA</span></div>
+									<!-- LAYER NR. 2 -->
+									<div class="tp-caption rs-parallaxlevel-4" 
+										 id="slide-3239-layer-2" 
+										 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+										 data-y="['middle','middle','middle','middle']" data-voffset="['44','57','39','0']" 
+													data-fontsize="['17','17','17','15']"
+										data-lineheight="['26','26','26','24']"
+										data-width="['720','480','480','300']"
+										data-height="none"
+										data-whitespace="normal"
+							 
+										data-type="text" 
+										data-responsive_offset="off" 
+										data-responsive="off"
+										data-frames='[{"from":"y:10px;sX:0.9;sY:0.9;opacity:0;","speed":1000,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+										data-textAlign="['center','center','center','center']"
+										data-paddingtop="[0,0,0,0]"
+										data-paddingright="[0,0,0,0]"
+										data-paddingbottom="[0,0,0,0]"
+										data-paddingleft="[0,0,0,0]"
+										style="z-index: 6; min-width: 720px; max-width: 720px; Rdxtheme-space: normal; line-height: 26px; font-weight: 500; color:#fff;border-width:0px;font-size: 27px;"><c>Cimientos que sustentan futuro.</c></div>
+									<!-- LAYER NR. 3 -->
+									<div class="tp-caption rev-btn rs-parallaxlevel-4" 
+										id="slide-3239-layer-4" 
+										data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+										data-y="['middle','middle','middle','middle']" data-voffset="['133','159','141','102']" 
+										data-width="none"
+										data-height="none"
+										data-whitespace="nowrap"
+										data-type="button" 
+										data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]'
+										data-responsive_offset="off" 
+										data-responsive="off"
+										data-frames='[
+										{
+											"from":"y:20px;sX:0.9;sY:0.9;opacity:0;",
+											"speed":1000,
+											"to":"o:1;",
+											"delay":900,
+											"ease":"Power4.easeOut"
+										},
+										{
+											"delay":"wait",
+											"speed":300,
+											"to":"opacity:0;",
+											"ease":"nothing"
+										},
+										{
+											"frame":"hover",
+											"speed":"0",
+											"ease":"Linear.easeNone",
+											"to":"o:1;rX:0;rY:0;rZ:0;z:0;",
+											"style":"c:rgba(0, 0, 0, 1.00);bg:rgba(238, 238, 238, 1.00);bs:solid;"
+										}
+										]'
+										data-textAlign="['left','left','left','left']"
+										data-paddingtop="[0,0,0,0]"
+										data-paddingright="[30,30,30,30]"
+										data-paddingbottom="[0,0,0,0]"
+										data-paddingleft="[30,30,30,30]"
+										style="z-index: 7; Rdxtheme-space: nowrap; font-size: 15px; line-height: 40px; font-weight: 700; color: rgba(0, 0, 0, 1.00);background-color:rgba(255, 255, 255, 1.00);border-color:rgba(0, 0, 0, 1.00);border-width:0px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">LEER MÁS </div>
+								</li>
+							</ul>
+							<div class="tp-bannertimer" style="height: 8px; background-color: rgba(255, 255, 255, 0.25);"></div>	
+						</div>
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+ <!-- Slider END -->
+		<!-- Our Services -->
+		<div class="section-full content-inner overlay-white-dark" style="background-image:url(images/background/bg18.jpg)" id="down">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-lg-4 col-sm-6 m-b30">
+						<div class="dez-box fly-box">
+							<div class="dez-media"> <a href="javascript:void(0);"><img src="img/AdobeStock_382083726.jpeg??" alt=""></a> </div>
+							<div class="dez-info p-a30 bg-white">
+								<h2 class="dez-title m-t0"><a href="javascript:void(0);">Gerenciamiento de Proyectos</a></h2>
+								<div class="dez-separator bg-primary"></div>
+								<p>Consiste en la gestión integral de proyectos desde su concepción hasta su materialización, liderando todos sus procesos para un resultado final a plena satisfacción del cliente.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-4 col-sm-6 m-b30">
+						<div class="dez-box fly-box">
+							<div class="dez-media"> <a href="javascript:void(0);"><img src="img/AdobeStock_264874512.jpeg" alt=""></a> </div>
+							<div class="dez-info p-a30 bg-white">
+								<h2 class="dez-title m-t0"><a href="javascript:void(0);">Coordinación de Proyectos</a></h2>
+								<div class="dez-separator bg-primary"></div>
+								<p>Comprende la revisión y comparación de los proyectos de arquitectura y especialidades, por separado o complementados, con el fin de detectar errores u omisiones en tales diseños y que puedan generar afectaciones en los plazos y costos de construcción, generando sinergia entre los participantes y eliminando las discordancias.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-4 col-sm-12 m-b10">
+						<div class="dez-box fly-box">
+							<div class="dez-media"> <a href="javascript:void(0);"><img src="img/AdobeStock_365762197.jpeg" alt=""></a> </div>
+							<div class="dez-info p-a30 bg-white">
+								<h2 class="dez-title m-t0"><a href="javascript:void(0);">Gerenciamiento de Construcción</a></h2>
+								<div class="dez-separator bg-primary"></div>
+								<p>El Gerenciamiento de Construcción consiste en la gestión integral de la materialización de un proyecto, liderando sus procesos de preparación de bases administrativas, licitación y adjudicación de obras<f id="suspensive1">...</f><f id="text-area1">, administración de contratos de construcción, inspección técnica de obras, recepción de obras y puesta en servicio. El objetivo del Gerenciamiento de Construcción es velar por el cumplimiento de las obligaciones de la empresa constructora y de sus subcontratistas en todos los requerimientos y alcances contratados.</f></p>
+                                <div class="controls">
+                                    <div class="show" style="text-align: right;">
+                                        <a id="more1" role="button">(+)...</a>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+                    <div class="col-md-4 col-lg-4 col-sm-12 m-b10">
+						<div class="dez-box fly-box">
+							<div class="dez-media"> <a href="javascript:void(0);"><img src="img/AdobeStock_406737774.jpeg?" alt=""></a> </div>
+							<div class="dez-info p-a30 bg-white">
+								<h2 class="dez-title m-t0"><a href="javascript:void(0);">Administración de contratos de construcción</a></h2>
+								<div class="dez-separator bg-primary"></div>
+								<p>El servicio está enfocado en lograr que, durante el desarrollo de las obras, las empresas constructoras se enmarquen en un estricto cumplimiento de las bases<f id="suspensive2">...</f><f id="text-area2"> administrativas, contratos, presupuestos de construcción y especificaciones técnicas, con el objetivo de que la entrega de las obras sea de acuerdo con los plazos contractuales, con la calidad especificada y dentro del presupuesto contratado.</f></p>
+                                <div class="controls">
+                                    <div class="show" style="text-align: right;">
+                                        <a id="more2" role="button">(+)...</a>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+                    <div class="col-md-4 col-lg-4 col-sm-6 m-b30">
+						<div class="dez-box fly-box">
+							<div class="dez-media"> <a href="javascript:void(0);"><img src="img/AdobeStock_319101061.jpeg" alt=""></a> </div>
+							<div class="dez-info p-a30 bg-white">
+								<h2 class="dez-title m-t0"><a href="javascript:void(0);">ITO, Inspección Técnica de Obras</a></h2>
+								<div class="dez-separator bg-primary"></div>
+								<p>Consiste en cumplir funciones de verificación y control de los aspectos técnicos en la ejecución de las obras, velando por la calidad, plazos y costos según atribuciones y facultades<f id="suspensive3">...</f><f id="text-area3"> establecidas en las bases administrativas y documentos contractuales. En términos generales velar por que la construcción de la obra sea ejecutada acorde a lo indicado en las especificaciones y planos del proyecto, para que finalmente la obra cumpla con los requerimientos funcionales y de materialidad requeridos por el cliente.</f></p>
+                                <div class="controls">
+                                    <div class="show" style="text-align: right;">
+                                        <a id="more3" role="button">(+)...</a>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+                    <div class="col-md-4 col-lg-4 col-sm-6 m-b30">
+						<div class="dez-box fly-box">
+							<div class="dez-media"> <a href="javascript:void(0);"><img src="img/AdobeStock_355143163.jpeg" alt=""></a> </div>
+							<div class="dez-info p-a30 bg-white">
+								<h2 class="dez-title m-t0"><a href="javascript:void(0);">Control y Gestión de Procesos</a></h2>
+								<div class="dez-separator bg-primary"></div>
+								<p>Nuestra labor es evaluar, identificar, coordinar y monitorear procesos para localizar fallas y oportunidades de mejora, aumentando así el rendimiento empresarial.</p>
+							</div>
+						</div>
+					</div>
+                    <div class="col-md-4 col-lg-4 col-sm-6 m-b30">
+						<div class="dez-box fly-box">
+							<div class="dez-media"> <a href="javascript:void(0);"><img src="img/AdobeStock_99654558.jpeg " alt=""></a> </div>
+							<div class="dez-info p-a30 bg-white">
+								<h2 class="dez-title m-t0"><a href="javascript:void(0);">Asesorías de Ingeniería</a></h2>
+								<div class="dez-separator bg-primary"></div>
+								<p>Asesorías en Ingeniería Civil Estructural, Mecánica de Suelos, Metodologías Constructivas, Sistemas de Impermeabilización en HDPE.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	 <!-- Our Services END-->
+		
+		<!-- Call Info -->
+		<div class="section-full content-inner-1" style="background-image: url(img/AdobeStock_406737774.jpeg?); background-size: cover;" id="down2">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-8 text-secondry qs">
+						<h2 class="title-top">Sobre nosotros</h2>
+						<h2 class="font-50">Quienes somos</h2>
+						<p class="m-t20">Somos una empresa de ingeniería que ofrece servicios profesionales de Gerenciamiento de Proyectos, Gerenciamiento de Construcción e Inspección Técnica de Obras, enfocados en desarrollar proyectos de calidad optimizando sus costos y plazos en un marco de eficiencia y sustentabilidad. Contamos con profesionales de gran trayectoria y experiencia gestionando y supervisando grandes obras dentro del territorio nacional e internacional por más de 25 años.</p><br><strong>Nuestra misión:</strong><p>Brindar un servicio de excelencia a nuestros clientes, generando sinergia entre los participantes de cada proyecto y orientando siempre el desarrollo hacia la eficiencia, innovación y sustentabilidad.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- Call Info END -->
+
+<!-- Call To Action -->
+		<div class="section-full p-tb50 bg-primary">
+			<div class="container">
+				<div class="row">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/IMG_9463.jpg" alt="...">
+                    </div>
+					<div class="col-lg-12 text-center gerencia">
+                        
+						<h2 class="font-35 text-black m-a0 m-b10">Gerente General</h2>
+						<h4 class="font-weight-bold max-w600 mx-auto m-b20">Julio Gómez Momo, Ingeniero Civil, Universidad de Chile. Project Management Professional PMP® </h4>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<!-- Call To Action END -->
+	
+		<!-- Our Info -->
+		<!-- <div class="section-full bg-img-fix content-inner overlay-primary-dark" style="background-image: url(images/background/bg12.jpg);">
+			<div class="container">	
+				<div class="section-head max-w700 m-auto text-white text-center">
+					<h2 class="title-top">Construct</h2>
+					<h2 class="font-50 text-secondry">Interesting in Working with Construct</h2>
+ 				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+						<div class="bg-white our-info p-a25 fly-box-ho">
+							<div class="icon-md pull-left text-secondry"><i class="ti-hand-drag"></i></div>
+							<div class="clearfix text-secondry m-l60">
+								<h3 class="title-name m-a0">Careers</h3>
+								<span>Work with us</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+						<div class="bg-white our-info p-a25 fly-box-ho">
+							<div class="icon-md pull-left text-secondry"><i class="ti-settings"></i></div>
+							<div class="clearfix text-secondry m-l60">
+								<h3 class="title-name m-a0">Get a Quote</h3>
+								<span>Work with us</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+						<div class="bg-white our-info p-a25 fly-box-ho">
+							<div class="icon-md pull-left text-secondry"><i class="ti-receipt"></i></div>
+							<div class="clearfix text-secondry m-l60">
+								<h3 class="title-name m-a0">Contact</h3>
+								<span>Work with us</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+						<div class="bg-white our-info p-a25 fly-box-ho">
+							<div class="icon-md pull-left text-secondry"><i class="ti-email"></i></div>
+							<div class="clearfix text-secondry m-l60">
+								<h3 class="title-name m-a0">Our Service</h3>
+								<span>Work with us</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- Our Info END -->
+ </div>
+ <!-- Content END-->
+ <!-- contact area -->
+ <div class="section-full content-inner bg-white contact-style-1" id="down3">
+    <div class="container">
+         <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+                <div class="icon-bx-wraper bx-style-1 p-a30 center">
+                    <div class="icon-xl text-primary m-b20"> <a href="javascript:void(0);" class="icon-cell"><i class="fas fa-map-marker-alt rojo"></i></a> </div>
+                    <div class="icon-content">
+                        <h5 class="dez-tilte text-uppercase">Dirección</h5>
+                        <p>V. MACKENNA  457, COMUNA MELIPILLA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+                <div class="icon-bx-wraper bx-style-1 p-a30 center">
+                    <div class="icon-xl text-primary m-b20"> <a href="javascript:void(0);" class="icon-cell"><i class="fa fa-envelope rojo"></i></a> </div>
+                    <div class="icon-content">
+                        <h5 class="dez-tilte text-uppercase">Email</h5>
+                        <p style="text-align: center;font-size: 15px;">contacto@momoingenieria.cl</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+                <div class="icon-bx-wraper bx-style-1 p-a30 center">
+                    <div class="icon-xl text-primary m-b20"> <a href="javascript:void(0);" class="icon-cell"><i class="fa fa-phone rojo"></i></a> </div>
+                    <div class="icon-content">
+                        <h5 class="dez-tilte text-uppercase">Teléfono</h5>
+                        <p style="text-align: center;">+569 9829 8581<br/> +569 6248 0790</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="row">
+<!-- Left part start -->
+<div class="col-lg-6">
+    <div class="p-a30 bg-gray clearfix m-b30 ">
+        <h2>Contáctanos</h2>
+        <div class="dzFormMsg"></div>
+            <form method="post" class="dzForm" action="mail.php">
+                <input type="hidden" value="Contact" name="dzToDo" >
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <div class="input-group">
+                            <input name="dzName" type="text" required class="form-control" placeholder="Nombre y Apellidos">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <div class="input-group"> 
+                                <input name="dzEmail" type="email" class="form-control" required placeholder="Tu correo" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <div class="input-group">
+                            <input name="telefono" type="text" required class="form-control" placeholder="Teléfono">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <div class="input-group">
+                            <input name="asunto" type="text" required class="form-control" placeholder="Motivo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <div class="input-group">
+                            <textarea name="dzMessage" rows="4" class="form-control" required placeholder="Mensaje"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        <div class="col-md-12">
+                        <button name="submit" type="submit" value="Submit" class="site-button back-rojo"> <span>Enviar</span> </button>
+                        </div>
+                    </div>      
+                </form>
+            </div>
+        </div>
+        <!-- Left part END -->
+
+        <!-- right part start -->
+        <div class="col-lg-6 d-flex">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63733.98834865817!2d-79.99604881062177!3d-3.256858892969559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90330e252f104ed1%3A0xea4e189f2b2da97e!2sMachala%2C%20Ecuador!5e0!3m2!1ses!2scl!4v1674768687346!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+ <!-- Footer -->
+ <footer class="site-footer">
+ <!-- footer top part -->
+ <div class="footer-top">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-lg-3 col-md-6 col-sm-6 footer-col-4">
+ 				<div class="widget widget_about">
+ 					<div class="logo-footer"><img src="logo-2.png" alt=""></div>
+ 					<p><strong>Nuestra misión</strong><br>Brindar un servicio de excelencia a nuestros clientes, generando sinergia entre los participantes de cada proyecto y orientando siempre el desarrollo hacia la eficiencia, innovación y sustentabilidad.</p>
+ 					<ul class="dez-social-icon dez-border">
+ 						<li><a class="fab fa-facebook-f" href="javascript:void(0);"></a></li>
+						<li><a class="fab fa-twitter" href="javascript:void(0);"></a></li>
+						<li><a class="fab fa-linkedin-in" href="javascript:void(0);"></a></li>
+						<li><a class="fab fa-facebook-f" href="javascript:void(0);"></a></li>
+ 					</ul>
+ 				</div>
+ 			</div>
+ 			<div class="col-lg-3 col-md-6 col-sm-6 footer-col-4">
+ 				<div class="widget widget_services">
+ 					<h4 class="m-b15 text-uppercase">Nuestros servicios</h4>
+ 					<div class="dez-separator-outer m-b10">
+ 						<div class="dez-separator bg-white style-skew"></div>
+ 					</div>
+					<ul>
+						<li><a href="javascript:">Gerenciamientos de Proyectos</a></li>
+						<li><a href="javascript:">Coordinación de Proyectos</a></li>
+						<li><a href="javascript:">Gerenciamiento de Construcción</a></li>
+						<li><a href="javascript:">Administración de contratos de construcción</a></li>
+						<li><a href="javascript:">ITO, Inspección Técnica de Obras</a></li>
+						<li><a href="javascript:">Control y Gestión de Procesos</a></li>
+                        <li><a href="javascript:">Asesorías de Ingenería</a></li>
+					</ul>
+ 				</div>
+ 			</div>
+ 			<div class="col-lg-3 col-md-6 col-sm-6 footer-col-4">
+				<div class="widget widget_getintuch">
+				<h4 class="m-b15 text-uppercase">Contáctanos</h4>
+					<div class="dez-separator-outer m-b10">
+						<div class="dez-separator bg-white style-skew"></div>
+					</div>
+ 					<ul>
+						<li><i class="fas fa-map-marker-alt"></i><strong>Dirección</strong>V. MACKENNA  457, COMUNA MELIPILLA</li>
+						<li><i class="fa fa-phone"></i><strong>Teléfono</strong>+569 9829 8581<br>+569 6248 0790</li>
+						<li><i class="fa fa-envelope"></i><strong>email</strong><a href="mailto:contacto@momoingenieria.cl">contacto@momoingenieria.cl</a></li>
+					</ul>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+    </div>
+ 
+ <!-- footer bottom part -->
+ <!-- <div class="footer-bottom footer-line">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-lg-4 col-md-4 text-left">
+			</div>
+				<div class="col-lg-4 col-md-4 text-center">
+				</div>
+					<div class="col-lg-4 col-md-4 text-right">
+						<a href="about-1.html">Sobre Nosotros</a> 
+						<a href="contact.html"> Contactanos</a> 
+					</div>
+ 			</div>
+ 		</div>
+ 	</div>
+</footer> -->
+<!-- Footer END-->
+<!-- scroll top button -->
+<button class="scroltop fa fa-arrow-up style5" ></button>
+</div>
+<!-- JavaScript files ========================================= -->
+<script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js?"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="plugins/bootstrap/js/popper.min.js?"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="plugins/bootstrap-select/bootstrap-select.min.js?"></script><!-- FORM JS -->
+<script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js?"></script><!-- FORM JS -->
+<script src="plugins/magnific-popup/magnific-popup.js?"></script><!-- MAGNIFIC POPUP JS -->
+<script src="plugins/counter/waypoints-min.js?"></script><!-- WAYPOINTS JS -->
+<script src="plugins/counter/counterup.min.js?"></script><!-- COUNTERUP JS -->
+<script src="plugins/imagesloaded/imagesloaded.js?"></script><!-- IMAGESLOADED -->
+<script src="plugins/lightgallery/js/lightgallery-all.min.js?"></script><!-- LIGHTGALLERY -->
+<script src="plugins/masonry/isotope.pkgd.min.js?"></script><!-- MASONRY -->
+<script src="plugins/masonry/masonry-4.2.2.js?"></script>
+<script src="plugins/owl-carousel/owl.carousel.js?"></script>
+<!-- <script src="js/custom.js"></script> -->
+<script src="js/dz.carousel.js?"></script>
+<script src="js/dz.ajax.js??"></script>
+<!-- <script src="plugins/switcher/js/switcher.js"></script> -->
+<!-- REVOLUTION JS FILES -->
+<script src="plugins/revolution/js/jquery.themepunch.tools.min.js?"></script>
+<script src="plugins/revolution/js/jquery.themepunch.revolution.min.js?"></script>
+<!-- Slider revolution 5.0 Extensions (Load Extensions only on Local File Systems ! The following part can be removed on Server for On Demand Loading) -->
+<script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js?"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js?"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js?"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js?"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js?"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js?"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js?"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js?"></script>
+<!-- <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script> -->
+<script src="js/rev.slider.js"></script>
+<script>
+	jQuery(document).ready(function() {
+		'use strict';
+		dz_rev_slider_6();
+        $('#ns').click(function(){
+        $('html, body').animate({
+                scrollTop: $("#down").offset().top
+            }, 100);
+        });
+        $('#qs').click(function(){
+            $('html, body').animate({
+                scrollTop: $("#down2").offset().top
+            }, 300);
+        });
+        $('#ct').click(function(){
+            $('html, body').animate({
+                scrollTop: $("#down3").offset().top
+            }, 300);
+        });
+        $('#text-area1').hide();
+        $('#text-area2').hide();
+        $('#text-area3').hide();
+        $('#more1').click(function (){
+            $('#text-area1').toggle();
+            $('#suspensive1').toggle();
+            if($('#more1').text()=="(+)..."){
+                $('#more1').text("(-)");
+            }else{
+                $('#more1').text("(+)...");
+            }
+        });
+        $('#more2').click(function (){
+            $('#text-area2').toggle();
+            $('#suspensive2').toggle();
+            if($('#more2').text()=="(+)..."){
+                $('#more2').text("(-)");
+            }else{
+                $('#more2').text("(+)...");
+            }
+        });
+        $('#more3').click(function (){
+            $('#text-area3').toggle();
+            $('#suspensive3').toggle();
+            if($('#more3').text()=="(+)..."){
+                $('#more3').text("(-)");
+            }else{
+                $('#more3').text("(+)...");
+            }
+        });
+	});
+</script>
+</body>
+</html>
